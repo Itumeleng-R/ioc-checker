@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-04-08T16:05:40.949652",
+  "total_checked": 1,
+  "summary": {
+    "malicious": 0,
+    "suspicious": 0,
+    "clean": 1
+  },
+  "results": [
+    {
+      "ioc": "malware.example.com",
+      "ioc_type": "domain",
+      "verdict": "CLEAN",
+      "confidence": 0,
+      "summary": "VT: 0 malicious, 0 suspicious / 94 engines",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 59,
+        "undetected": 35,
+        "total_engines": 94,
+        "flagged_by": []
+      },
+      "abuseipdb": null,
+      "errors": []
+    }
+  ]
+}

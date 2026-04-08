@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-04-08T09:33:31.212530",
+  "total_checked": 1,
+  "summary": {
+    "malicious": 0,
+    "suspicious": 1,
+    "clean": 0
+  },
+  "results": [
+    {
+      "ioc": "45.33.32.156",
+      "ioc_type": "ipv4",
+      "verdict": "SUSPICIOUS",
+      "confidence": 5,
+      "summary": "VT: 4 malicious, 1 suspicious / 94 engines",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 4,
+        "suspicious": 1,
+        "harmless": 57,
+        "undetected": 32,
+        "total_engines": 94,
+        "flagged_by": [
+          "ADMINUSLabs",
+          "Criminal IP",
+          "CyRadar",
+          "ESET",
+          "SOCRadar"
+        ],
+        "country": "US",
+        "asn": 63949,
+        "as_owner": "Akamai Connected Cloud"
+      },
+      "abuseipdb": {
+        "error": "AbuseIPDB connection error: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      },
+      "errors": [
+        "AbuseIPDB: AbuseIPDB connection error: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>"
+      ]
+    }
+  ]
+}

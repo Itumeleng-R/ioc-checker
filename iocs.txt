@@ -1,0 +1,12 @@
+# IPs
+45.33.32.156
+8.8.8.8
+1.1.1.1
+
+# Domains
+malware-test.com
+google.com
+
+# Hashes (MD5 / SHA256)
+d41d8cd98f00b204e9800998ecf8427e
+44d88612fea8a8f36de82e1278abb02f8ad8d0c8a78b3a46b7f1a6c4c7e1234

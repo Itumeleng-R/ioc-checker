@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-04-08T16:07:26.871390",
+  "total_checked": 6,
+  "summary": {
+    "malicious": 1,
+    "suspicious": 1,
+    "clean": 4
+  },
+  "results": [
+    {
+      "ioc": "45.33.32.156",
+      "ioc_type": "ipv4",
+      "verdict": "MALICIOUS",
+      "confidence": 90,
+      "summary": "VT: 4 malicious, 1 suspicious / 94 engines | AbuseIPDB: 90% confidence (160 reports)",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 4,
+        "suspicious": 1,
+        "harmless": 56,
+        "undetected": 33,
+        "total_engines": 94,
+        "flagged_by": [
+          "ADMINUSLabs",
+          "Criminal IP",
+          "CyRadar",
+          "ESET",
+          "SOCRadar"
+        ],
+        "country": "US",
+        "asn": 63949,
+        "as_owner": "Akamai Connected Cloud"
+      },
+      "abuseipdb": {
+        "source": "AbuseIPDB",
+        "abuse_confidence": 90,
+        "total_reports": 160,
+        "distinct_reporters": 6,
+        "last_reported": "2026-04-08T08:57:21.372510",
+        "country": "US",
+        "isp": "Linode LLC",
+        "usage_type": "Data Center",
+        "domain": "unknown",
+        "is_tor": false,
+        "is_whitelisted": false
+      },
+      "errors": []
+    },
+    {
+      "ioc": "8.8.8.8",
+      "ioc_type": "ipv4",
+      "verdict": "CLEAN",
+      "confidence": 0,
+      "summary": "VT: 0 malicious, 0 suspicious / 94 engines | AbuseIPDB: 0% confidence (0 reports)",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 58,
+        "undetected": 36,
+        "total_engines": 94,
+        "flagged_by": [],
+        "country": "US",
+        "asn": 15169,
+        "as_owner": "Google LLC"
+      },
+      "abuseipdb": {
+        "source": "AbuseIPDB",
+        "abuse_confidence": 0,
+        "total_reports": 0,
+        "distinct_reporters": 0,
+        "last_reported": null,
+        "country": "US",
+        "isp": "Google LLC",
+        "usage_type": "Content Delivery Network",
+        "domain": "unknown",
+        "is_tor": false,
+        "is_whitelisted": false
+      },
+      "errors": []
+    },
+    {
+      "ioc": "1.1.1.1",
+      "ioc_type": "ipv4",
+      "verdict": "CLEAN",
+      "confidence": 0,
+      "summary": "VT: 0 malicious, 0 suspicious / 94 engines | AbuseIPDB: 0% confidence (0 reports)",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 62,
+        "undetected": 32,
+        "total_engines": 94,
+        "flagged_by": [],
+        "country": "unknown",
+        "asn": 13335,
+        "as_owner": "Cloudflare, Inc."
+      },
+      "abuseipdb": {
+        "source": "AbuseIPDB",
+        "abuse_confidence": 0,
+        "total_reports": 0,
+        "distinct_reporters": 0,
+        "last_reported": null,
+        "country": "AU",
+        "isp": "Cloudflare",
+        "usage_type": "Content Delivery Network",
+        "domain": "unknown",
+        "is_tor": false,
+        "is_whitelisted": false
+      },
+      "errors": []
+    },
+    {
+      "ioc": "malware-test.com",
+      "ioc_type": "domain",
+      "verdict": "SUSPICIOUS",
+      "confidence": 5,
+      "summary": "VT: 4 malicious, 1 suspicious / 94 engines",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 4,
+        "suspicious": 1,
+        "harmless": 53,
+        "undetected": 36,
+        "total_engines": 94,
+        "flagged_by": [
+          "ADMINUSLabs",
+          "alphaMountain.ai",
+          "CRDF",
+          "CyRadar",
+          "ESET"
+        ]
+      },
+      "abuseipdb": null,
+      "errors": []
+    },
+    {
+      "ioc": "google.com",
+      "ioc_type": "domain",
+      "verdict": "CLEAN",
+      "confidence": 0,
+      "summary": "VT: 0 malicious, 0 suspicious / 94 engines",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 67,
+        "undetected": 27,
+        "total_engines": 94,
+        "flagged_by": []
+      },
+      "abuseipdb": null,
+      "errors": []
+    },
+    {
+      "ioc": "d41d8cd98f00b204e9800998ecf8427e",
+      "ioc_type": "md5",
+      "verdict": "CLEAN",
+      "confidence": 0,
+      "summary": "VT: 0 malicious, 0 suspicious / 61 engines",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 0,
+        "undetected": 61,
+        "total_engines": 61,
+        "flagged_by": [],
+        "file_name": "android-cts-7.1_r6-linux_x86-arm.zip",
+        "file_type": "unknown",
+        "file_size": 0
+      },
+      "abuseipdb": null,
+      "errors": []
+    }
+  ]
+}

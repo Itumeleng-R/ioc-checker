@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-04-08T16:04:44.368019",
+  "total_checked": 1,
+  "summary": {
+    "malicious": 1,
+    "suspicious": 0,
+    "clean": 0
+  },
+  "results": [
+    {
+      "ioc": "45.33.32.156",
+      "ioc_type": "ipv4",
+      "verdict": "MALICIOUS",
+      "confidence": 90,
+      "summary": "VT: 4 malicious, 1 suspicious / 94 engines | AbuseIPDB: 90% confidence (160 reports)",
+      "virustotal": {
+        "source": "VirusTotal",
+        "malicious": 4,
+        "suspicious": 1,
+        "harmless": 56,
+        "undetected": 33,
+        "total_engines": 94,
+        "flagged_by": [
+          "ADMINUSLabs",
+          "Criminal IP",
+          "CyRadar",
+          "ESET",
+          "SOCRadar"
+        ],
+        "country": "US",
+        "asn": 63949,
+        "as_owner": "Akamai Connected Cloud"
+      },
+      "abuseipdb": {
+        "source": "AbuseIPDB",
+        "abuse_confidence": 90,
+        "total_reports": 160,
+        "distinct_reporters": 6,
+        "last_reported": "2026-04-08T08:57:21.372510",
+        "country": "US",
+        "isp": "Linode LLC",
+        "usage_type": "Data Center",
+        "domain": "unknown",
+        "is_tor": false,
+        "is_whitelisted": false
+      },
+      "errors": []
+    }
+  ]
+}
